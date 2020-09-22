@@ -1,0 +1,7 @@
+filename: YYYY-MM-DD-CODE.md
+
+Title: whatever you want
+Date: YYYY-MM-DD
+permalink: /posts/YYYY/MM/CODE/
+
+<start whatever you want to write>
