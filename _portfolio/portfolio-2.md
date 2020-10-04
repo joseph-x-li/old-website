@@ -9,3 +9,9 @@ Teammates: Brian Zhang, Brian Lee
 [Code](https://github.com/atomicapple0/ramen_bot)
 
 ## About
+
+talk about functinality
+
+## How it works
+
+## Contributions
