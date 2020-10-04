@@ -1,6 +1,6 @@
 ---
 title: "HackCMU: CMUPrint"
-excerpt: "GPS-enabled printer finder <br/> \"Won Spiciest Meme\" award. <br/><img src='/images/cmuprintersplash.jpg'>"
+excerpt: "GPS-enabled printer finder <br/> \"Won Spiciest Meme\" award. <br/><img src='/images/cmuprintersplash.png'>"
 collection: portfolio
 ---
 
@@ -12,4 +12,4 @@ Several of our team members remember when we needed to print magazine size color
 
 Our app uses GPS location services to locate the closest printer that meets the student's specifications (color, print size). It shows the name of the printer, a description of its location, a picture of the printer, and fun facts about the printer's history. It even tells you the approximate distance the student would have to walk to get to the printer.
 
-Printer statuses are scraped online and automitcally updated.
+Printer statuses are scraped online and automatically updated.
