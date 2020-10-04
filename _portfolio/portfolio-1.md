@@ -1,12 +1,12 @@
 ---
 title: "HackMIT 2020: Rhythmic Live"
-excerpt: "Synchronous music rehersal and recording over the internet <br/><img src='/images/rhythmiclivesplash.png'>"
+excerpt: "Synchronous music rehersal and recording over the internet. <br/> Won NASDAQ Live Music challenge. <br/><img src='/images/rhythmiclivesplash.png'>"
 collection: portfolio
 ---
 
 Teammates: Konwoo Kim, Edward Li, Mason Xiao
 
-[Code](http://www.github.com/rhythmic-live)
+[Code](http://github.com/rhythmic-live)
 
 ## About
 
