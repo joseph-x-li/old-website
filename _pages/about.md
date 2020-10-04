@@ -19,7 +19,6 @@ I am also working on improving and rewriting OpenFace2.0 in Python.
 
 ### Python
 
-Extensive experience with Python3.7, Python3.8, ZeroMQ(pyzmq), threading, multiprocessing, asyncio, OpenCV video libraries
+Extensive experience with Python3.7, Python3.8, ZeroMQ(pyzmq), threading, multiprocessing, asyncio, OpenCV, Numpy.
 
-Proficient with Pytorch, Tensorflow
-
+Proficient with Pytorch, Tensorflow, Flask, sockets
