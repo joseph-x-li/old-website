@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+# NOTE: This website is under heavy construction
+
 I'm Joseph, a sophomore at Carnegie Mellon University. I am planning a CS Degree with concentrations in Machine Learning and Robotics. I am involved with Scottylabs and Roboclub.
 
 # Research
