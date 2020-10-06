@@ -12,6 +12,9 @@ main:
 
   - title: "Publications"
     url: /publications/
-    
+  
+  - title: "Election Countdown"
+    url: /election-countdown/
+  
   - title: "."
     url: /markdown/

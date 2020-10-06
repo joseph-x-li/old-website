@@ -1,6 +1,6 @@
 ---
 title: "HackCMU: CMUPrint"
-excerpt: "GPS-enabled printer finder <br/> \"Won Spiciest Meme\" award. <br/><img src='/images/cmuprintersplash.png'>"
+excerpt: "GPS-enabled printer finder <br/><img src='/images/cmuprintersplash.png'>"
 collection: portfolio
 ---
 

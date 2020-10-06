@@ -7,6 +7,7 @@ collection: portfolio
 Teammates: Konwoo Kim, Edward Li, Mason Xiao
 
 [Code](http://github.com/rhythmic-live)
+[rhythmic.live](rhythmic.live)
 
 ## About
 
