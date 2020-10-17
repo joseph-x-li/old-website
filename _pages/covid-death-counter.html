@@ -2,5 +2,32 @@
 layout: splash
 permalink: /covid-death-counter/
 ---
+<p id="covid-title">CORONAVIRUS DEATHS IN THE UNITED STATES</p>
+<p id="covid-date-newest">Up to and including --/--/----</p>
+<p id="covid-deaths">---,---</p>
+<p id="ww2-deaths">WW2 Deaths: 291,557</p>
+<p id="911-deaths">9/11/2001 Deaths: 2,977</p>
 
-<p id="ww2-deaths">291,557</p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    /* var request = "https://api.covid19api.com/total/country/united-states/status/deaths?from=2020-10-15T00:00:00Z&to=2020-10-16T00:00:00Z" */
+    const today = new Date();
+    const yesterday = new Date(today);
+    yesterday.setDate(yesterday.getDate() - 1); /* get yesterday date */
+    var prev_year = yesterday.getFullYear();
+    var prev_day = yesterday.getDate();
+    var prev_month = yesterday.getMonth() + 1;
+
+    document.getElementById("covid-date-newest").innerHTML = `Up to and including ${prev_month}/${prev_day}/${prev_year}`
+
+    var year = today.getFullYear();
+    var day = today.getDate();
+    var month = today.getMonth() + 1;
+
+    const url = `https://api.covid19api.com/total/country/united-states/status/deaths?from=${prev_year}-${prev_month}-${prev_day}T00:00:00Z&to=${year}-${month}-${day}T00:00:00Z`;
+
+    $.getJSON(url, function(result){
+        document.getElementById("covid-deaths").innerHTML = result.slice(-1)[0]["Cases"];
+    })
+
+</script>
