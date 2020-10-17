@@ -1,6 +1,6 @@
 ---
 title: "HackCMU: CMUPrint"
-excerpt: "GPS-enabled printer finder <br/><img src='/images/portfolio-4/cmuprintersplash.png'>"
+excerpt: "GPS-enabled campus printer finder. <br/><img src='/images/portfolio-4/cmuprintersplash.png'>"
 collection: portfolio
 ---
 

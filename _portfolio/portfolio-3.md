@@ -1,6 +1,6 @@
 ---
 title: "MakeMIT: IOT Bird House"
-excerpt: "Automating a classic college experience. <br/> \"Won Spiciest Meme\" award. <br/><img src='/images/portfolio-3/birdsplash.jpg' width='500'>"
+excerpt: "Bringing ornithological research into the 21st century. <br/><img src='/images/portfolio-3/birdsplash.jpg' width='500'>"
 collection: portfolio
 ---
 [Github](https://github.com/Brian-Tae-Lee/HackMIT2020)
