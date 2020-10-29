@@ -2,16 +2,36 @@
 layout: splash
 permalink: /covid-death-counter/
 ---
-<p id="covid-title" style="font-size: 64px; margin-bottom: 0; text-align: center;">USA CORONAVIRUS DEATHS</p>
-<p id="covid-date-newest" style="margin-bottom: 0; text-align: center;">Up to and including --/--/----</p>
-<p id="covid-deaths" style="font-size: 144px; margin-bottom: 10px; text-align: center; font-weight: bold;">---,---</p>
-<p id="ww2-deaths" style="font-size: 32px; margin-bottom: 0; text-align: center;">WW2 Deaths: 291,557</p>
-<p id="911-deaths" style="font-size: 32px; margin-bottom: 0; text-align: center;">9/11/2001 Deaths: 2,977</p>
-<p id="message" style="font-size: 24px; margin-bottom: 0; text-align: center;">More dynamic statistics will be added</p>
+<p id="covid-title" style="font-size: 64px; margin-bottom: 0; text-align: center;">
+    USA CORONAVIRUS DEATHS
+</p>
+<p id="covid-date-newest" style="margin-bottom: 0; text-align: center;">
+    Up to and including --/--/----
+</p>
+<p id="covid-deaths" style="font-size: 144px; margin-bottom: 10px; text-align: center; font-weight: bold;">
+    ---,---
+</p>
+<p id="ww2-deaths" style="font-size: 32px; margin-bottom: 0; text-align: center;">
+    WW2 Combat Deaths: 291,557
+</p>
+<p id="911-deaths" style="font-size: 32px; margin-bottom: 0; text-align: center;">
+    9/11/2001 Deaths: 2,977
+</p>
+<p id="message" style="font-size: 24px; margin-bottom: 0; text-align: center;">
+    More dynamic statistics will be added
+</p>
 
+<br></br>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
     /* var request = "https://api.covid19api.com/total/country/united-states/status/deaths?from=2020-10-15T00:00:00Z&to=2020-10-16T00:00:00Z" */
+    /* 73 FT of paper stack, loss of life expectancy */
+    /* We are approaching 85% the number of combat deaths of WWII (6 years): 220000/291557 */
+    /* deaths wrt regular deaths: Coronavirus deaths have accounted for % of all deaths in the USA for 2020. */
+    /* deaths wrt flu: Coronavirus deaths are at xx% of the number of deaths wrt the flu */ 
+    /* We are over 100x the number of deaths of 9/11, which triggered $6.4 trillion in spending: 220000/291557 */
+    /* https://www.businessinsider.com/us-spending-war-on-terror-stands-at-6-trillion-report-2019-11 */
+    
     const today = new Date();
     const yesterday = new Date(today);
     yesterday.setDate(yesterday.getDate() - 1); /* get yesterday date */
