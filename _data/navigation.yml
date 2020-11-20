@@ -12,9 +12,6 @@ main:
 
   - title: "Publications"
     url: /publications/
-  
-  - title: "Election Countdown"
-    url: /election-countdown/
 
   - title: "COVID Stats"
     url: /covid-death-counter/
