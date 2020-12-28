@@ -1,25 +1,24 @@
 ---
-title: "HackCMU: CMUPrint"
-excerpt: "GPS-enabled campus printer finder. <br/><img src='/images/portfolio-4/cmuprintersplash.png'>"
+title: "HackMIT 2020: Rhythmic Live"
+excerpt: "Synchronous music rehersal and recording over the internet. <br/> Won NASDAQ Live Music challenge. <br/><img src='/images/portfolio-4/rhythmiclivesplash.png'>"
 collection: portfolio
 ---
 
-[Github](https://github.com/joseph-x-li/CMUPrinter)
+Teammates: Konwoo Kim, Edward Li, Mason Xiao
+
+[Github](http://github.com/rhythmic-live)  
+[rhythmic.live demo](rhythmic.live)
 
 ## About
 
-Several of our team members remember when we needed to print magazine size color memes for a school project when we realized we could not locate the closest printer to satisfy our needs. We tried to use the cryptic CMU Printing Services website but were only confused even further. The map and website are hard to read, and the location descriptions are unclear. This is when we decided to create the CMUPrinter app.
+In a post-COVID world, rhythmic.live aims to bring individuals together through music. Our platform provides audio synchronization, interactive and browser-compatible sheet music, as well as informative analytics to improve your skills—all packaged together in a simple yet elegant design. Whether you're part of an aspiring a cappella group or just having some fun with friends, perform your next musical adventure with rhythmic.live!
 
-## How it Works
+## How it works
 
-<img src="/images/portfolio-4/printing.png" width="700"/>
+<img src='/images/portfolio-4/rhythmiclivesplash.png'>
 
-Our app uses GPS location services to locate the closest printer that meets the student's specifications (color, print size). It shows the name of the printer, a description of its location, a picture of the printer, and fun facts about the printer's history. It even tells you the approximate distance the student would have to walk to get to the printer. This distance is calculated using an innovative technique known as the Pythagorean Theorem.
+Musicians can join a session that a conductor manages. When the conductor starts the recording session, separate recording sessions are started in each musician's browser. These audio streams are reconstructed in sync and stored. After each recording is finished, the conductor can browse all the recent recordings, listen to them, and get automated algorithmic feedback about tone, timbre, and rhythm.
 
-Printer statuses are scraped online and automatically updated.
+## Contribution
 
-We designed a custom google-maps-like feature to plot printer locations on a map of CMU given GPS coordinates. This was done to avoid paying to use the Google Maps API.
-
-## Contributions
-
-I designed app front-end, app flow (pages, button action), and app infrastructure (Printer class, custom map API to avoid using Google Maps). 
+I created a socket.io server using python to handle xml distribution, participant synchronization, and audio distribution and splicing. Also designed some of the javascript audio recording backend.
