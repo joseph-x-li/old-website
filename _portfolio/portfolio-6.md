@@ -8,11 +8,16 @@ collection: portfolio
 
 ## About
 
-[Video](https://www.youtube.com/watch?v=8CjnURi6ZwM)
-
 Includes basic functionality of typical typing-test programs (typeracer, 10 fast fingers). 
 
 Green/Red highlights correct and incorrect keystrokes
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=8CjnURi6ZwM">
+</iframe>
+
+<!-- [Video](https://www.youtube.com/watch?v=8CjnURi6ZwM) -->
+
 
 <img src="/images/portfolio-6/wrong.png" width="700"/>
 
