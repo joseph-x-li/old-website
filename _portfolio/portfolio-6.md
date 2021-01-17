@@ -13,7 +13,7 @@ Includes basic functionality of typical typing-test programs (typeracer, 10 fast
 Green/Red highlights correct and incorrect keystrokes
 
 <iframe width="420" height="315"
-src="https://www.youtube.com/embed/v=8CjnURi6ZwM">
+src="https://www.youtube.com/embed/8CjnURi6ZwM">
 </iframe>
 
 <!-- [Video](https://www.youtube.com/enbed/v=8CjnURi6ZwM) -->
